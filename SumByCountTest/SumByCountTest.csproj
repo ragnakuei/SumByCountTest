@@ -75,10 +75,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OrderData\DataRepository.csproj">
-      <Project>{5867D120-3F92-43FB-B410-776CDAB4A9A7}</Project>
-      <Name>DataRepository</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SumByCount\SumByCount.csproj">
       <Project>{DD14832D-7954-478E-8132-9C3DBC4B1257}</Project>
       <Name>SumByCount</Name>

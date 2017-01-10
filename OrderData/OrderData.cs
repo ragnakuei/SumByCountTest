@@ -10,5 +10,6 @@ namespace DataRepository
     {
         int[] GetOrderCostData(int[] ids);
         int[] GetOrderRevenueData(int[] ids);
+        int[] GetPropertyArray(string propertyName,int[] ids);
     }
 }
