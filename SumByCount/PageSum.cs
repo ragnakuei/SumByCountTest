@@ -22,7 +22,7 @@ namespace SumByCount
             foreach (var item in ints)
             {
                 singlePageSum = singlePageSum + ints[numbersIndex];
-                if (numbersIndex % count == count - 1 || numbersIndex == ints.Count() - 1)
+                if (numbersIndex % count == count - 1)
                 {
                     result[resultIndex] = singlePageSum;
                     resultIndex++;
