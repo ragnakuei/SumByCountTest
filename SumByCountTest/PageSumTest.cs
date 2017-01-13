@@ -9,7 +9,7 @@ namespace SumByCountTest
     [TestClass]
     public class PageSumTest
     {
-        private List<Order> _orders = new List<Order>(){
+        private readonly List<Order> _orders = new List<Order>(){
                 new Order { Id = 1, Cost = 1, Revenue = 11, SellPrice = 21 },
                 new Order { Id = 2, Cost = 2, Revenue = 12, SellPrice = 22 },
                 new Order { Id = 3, Cost = 3, Revenue = 13, SellPrice = 23 },
